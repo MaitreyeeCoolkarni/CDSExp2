@@ -1,25 +1,24 @@
-#include <iostream>
-using namespace std;
+This code is to determine how much memory is used up by diffrent data types
 
-int main()
-{
+Fundamental Data Types in C++
+int 
+Definition: Represents whole numbers (positive, negative, or zero) without decimal points.
+Size: 4 bytes 
 
-int a;
-cout<<"Size is "<<sizeof(a)<<"bytes"<<endl;
+float 
+Definition: Represents single-precision floating-point numbers with decimal points, suitable for approximate calculations.
+Size: 4 bytes 
 
-string str="Hello";
-cout<<"Size is "<<sizeof(str)<<"bytes"<<endl;
+double 
+Definition: Represents double-precision floating-point numbers with higher precision than float, used for more accurate decimal calculations.
+Size: 8 bytes
 
-float fl;
-cout<<"Size is "<<sizeof(fl)<<"bytes"<<endl;
+char (Character)
+Definition: Represents a single character (e.g., letters, digits, or symbols) using the ASCII or extended character set.
+Size: 1 byte 
 
-char B;
-cout<<"Size is "<<sizeof(B)<<"bytes"<<endl;
+bool (Boolean)
+Definition: Represents a logical value, either true or false.
+Size: 1 byte 
 
-bool C = 0;
-cout<<"Size is "<<sizeof(C)<<"bytes"<<endl;
-
-return 0;
-
-
-}
+Conclusion -- C++ have diffrent data types which have diffrent sizes
