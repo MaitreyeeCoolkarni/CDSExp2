@@ -58,7 +58,7 @@ In C++, the `sizeof` operator is a compile-time unary operator that returns the 
 
 sizeof(data_type_or_variable)
 
-CONCLUSION:
+## CONCLUSION:
 In this program, we explored the different fundamental data types in C++, such as integers, floats, characters, booleans, and void.
 We also used the sizeof operator to understand the amount of memory each type occupies.
 This knowledge is essential for efficient memory usage and for writing optimized and portable C++ programs.
