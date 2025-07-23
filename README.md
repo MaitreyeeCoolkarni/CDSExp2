@@ -4,6 +4,7 @@ APPARATUS-Programiz/VS code
 
 ALGORITHM:
 
+
 Include the standard input/output library.
 
 Enable use of standard namespace for simplified name access.
