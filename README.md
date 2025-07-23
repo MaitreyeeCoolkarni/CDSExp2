@@ -55,7 +55,7 @@ In C++, fundamental data types are the basic built-in types provided by the lang
 In C++, the `sizeof` operator is a compile-time unary operator that returns the size (in bytes) of a variable, data type, or expression. It is used to determine how much memory is allocated for a given type or object on a specific system.
 
 **Syntax:**  
-```cpp
+
 sizeof(data_type_or_variable)
 
 CONCLUSION:
