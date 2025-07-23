@@ -1,61 +1,59 @@
-AIM-To learn diffrent types of datatypes in C++
+# Data Types in C++
 
-APPARATUS-Programiz/VS code
+Aim: To learn different types of data types in C++  
+Apparatus: Programiz / VS Code
 
-ALGORITHM:
+---
 
+## Algorithm
 
-Include the standard input/output library.
+1. Include the standard input/output library.  
+2. Enable use of standard namespace for simplified name access.  
+3. Start the main program.  
+4. For each data type (integer, string, float, character, boolean):  
+   - Declare a variable of the respective type.  
+   - Display the memory size of the variable in bytes using the `sizeof` operator.  
+5. End the program with a successful return status.
 
-Enable use of standard namespace for simplified name access.
+---
 
-Start the main program.
+## Theory
 
-For each data type (integer, string, float, character, boolean):
+In C++, fundamental data types are the basic built-in types provided by the language to store simple kinds of data. These are not derived from other types and are directly supported by the compiler.
 
-Declare a variable of the respective type.
+### Integer Types (for whole numbers)
 
-Display the memory size of the variable in bytes.
+- `int`: Standard integer (e.g., 42, -10). Typically 4 bytes  
+- `short`: Smaller integer. Typically 2 bytes  
+- `long`: Larger integer. At least 4 bytes  
+- `long long`: Even larger integer. At least 8 bytes  
+- Modifiers: `signed` (default, allows negative) or `unsigned` (non-negative only)
 
-End the program with a successful return status.
+### Floating-Point Types (for decimal numbers)
 
-THEORY:
-In C++, fundamental data types are the basic, built-in types provided by the language to store simple kinds of data. They are not derived from other types and are directly supported by the compiler. Below is a concise overview of the fundamental data types:
+- `float`: Single-precision floating-point (e.g., 3.14). Typically 4 bytes  
+- `double`: Double-precision floating-point (e.g., 3.14159). Typically 8 bytes  
+- `long double`: Extended-precision floating-point. Size varies (often 8 or 16 bytes)
 
-Integer Types (for whole numbers):
-int: Standard integer (e.g., 42, -10). Typically 4 bytes.
-short: Smaller integer. Typically 2 bytes.
-long: Larger integer. At least 4 bytes.
-long long: Even larger integer. At least 8 bytes.
-Modifiers: signed (default, allows negative) or unsigned (non-negative).
+### Character Types (for characters)
 
-Floating-Point Types (for decimal numbers):
-float: Single-precision floating-point (e.g., 3.14). Typically 4 bytes.
-double: Double-precision floating-point (e.g., 3.14159). Typically 8 bytes.
-long double: Extended-precision floating-point. Size varies (often 8 or 16 bytes).
+- `char`: Single character (e.g., 'A', '5'). Exactly 1 byte  
+- `wchar_t`: Wide character for extended character sets (e.g., Unicode). Size varies by system
 
-Character Types (for characters):
-char: Single character (e.g., 'A', '5'). Exactly 1 byte.
-wchar_t: Wide character for extended character sets (e.g., Unicode). Size varies.
+### Boolean Type (for true/false)
 
-Boolean Type (for true/false):
-bool: Stores true or false. Typically 1 byte.
+- `bool`: Stores `true` or `false`. Typically 1 byte
 
-Void Type:
-void: Represents the absence of a type, used in functions (e.g., no return value) or pointers.
+### Void Type
 
-Sizeof Operator:In C++, the sizeof operator is a compile-time unary operator that returns the size, in bytes, of a variable, data type, or expression. It is used to determine the amount of memory allocated for a given type or object on a specific system
+- `void`: Represents the absence of a type, used in functions (e.g., no return value) or pointers
 
-Syntax:sizeof()
+---
 
-CONCLUSION:
+## Sizeof Operator
 
-Here we learn about diffrent datatypes in c++.We also learn what is their size(memory consumed).
+In C++, the `sizeof` operator is a compile-time unary operator that returns the size (in bytes) of a variable, data type, or expression. It is used to determine how much memory is allocated for a given type or object on a specific system.
 
-
-
-
-
-
-
-
+**Syntax:**  
+```cpp
+sizeof(data_type_or_variable)
